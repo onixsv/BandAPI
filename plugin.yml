@@ -1,0 +1,14 @@
+name: BandAPI
+author: alvin0319
+main: BandAPI\BandAPI
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  포스트:
+    description: 밴드에 글을 작성합니다.
+    permission: bandapi.post
+
+permissions:
+  bandapi.post:
+    default: op
